@@ -19,6 +19,12 @@ namespace Test_Taste_Console_Application.Domain.Services
             Client.BaseAddress = new Uri(UriPath.BaseUri);
             Client.DefaultRequestHeaders.Accept.Add(new
                 MediaTypeWithQualityHeaderValue(HttpClientSettings.JsonType));
+            // Add Bearer Token
+            Client.DefaultRequestHeaders.Authorization =
+                new AuthenticationHeaderValue(
+                    "Bearer",
+                    "<API-KEY>"
+                );
         }
     }
 }

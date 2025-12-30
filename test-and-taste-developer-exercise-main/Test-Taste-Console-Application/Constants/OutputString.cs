@@ -11,7 +11,11 @@
         public const string MoonMassExponent = "Moon's Mass Exponent";
         public const string MoonMassValue = "Moon's Mass Value";
         public const string PlanetMoonAverageGravity = "The Planet's Average Moon Gravity";
+        public const string PlanetMoonAverageTemperature = "Planet's Average Moon Temperature";
         public const string NoMoonsFound = "No moons found.";
+        public const string LoadingData = "Loading data from API...";
+        public const string WritingData = "Writing data to console...";
+        public const string FetchingMoons = "Fetching details for {0} moons...";
         public const string NoPlanetsFound = "No planets found.";
         public const string FileCreated = "The file is created in: ";
         public const string FolderCreated = "The folder is created in: ";
